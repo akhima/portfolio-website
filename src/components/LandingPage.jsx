@@ -1,9 +1,13 @@
 import React from "react";
+// import { ThemeProvider } from "emotion-theming";
+// import theme from "@rebass/preset";
+// import { Button } from "rebass";
+import NavTab from "./NavTab";
 
 function LandingPage() {
   return (
     <div>
-      <h1>Hi</h1>
+      <NavTab />
     </div>
   );
 }
